@@ -1,0 +1,1 @@
+#coding: UTF-8n=2564n=n-1A=4555096736result={}for k in xrange(99999):    y=str((k+A)%3599)    try:        result[y]+=1    except:        result[y]=1max=10000key=0for r in result:    if result[r]<28:        key+=1print keywhile(True):    try:        exec raw_input("输入代码\n")    except Exception,e:        print e
